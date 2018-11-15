@@ -89,6 +89,7 @@
         "interval": 30,
         "depth": 60,
         "poolFee": 2,
+        "networkFee": 20.0,
         "devDonation": 0.0,
         "coreDevDonation": 0.0,
         "extraFeaturesDevDonation":0.0
