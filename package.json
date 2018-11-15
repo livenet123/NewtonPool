@@ -9,8 +9,8 @@
     },
     "dependencies": {
         "bignum": "*",
-        "async": "*",
-        "redis": "*",
+        "async": "1.5.2",
+        "redis": "0.12.1",
         "cli-color": "*",
         "dateformat": "*",
         "base58-native": "*",

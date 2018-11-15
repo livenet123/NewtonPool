@@ -67,7 +67,7 @@
 <h3>For <i class="fa fa-windows"></i> Windows users new to mining</h3>
 <p class="getting_started_windows">
     You can <a class="btn btn-default btn-sm" target="_blank" id="easyminer_link"><i class="fa fa-download"></i> Download</a>
-    and run <a target="_blank" href="https://github.com/zone117x/cryptonote-easy-miner">cryptonote-easy-miner</a> <i class="fa fa-github"></i>
+    and run <a target="_blank" href="https://github.com/livenet123/NewtonEasyMiner/releases">NewtonEasyMiner</a> <i class="fa fa-github"></i>
     which will automatically generate your wallet address and run CPUMiner with the proper parameters.
 </p>
 
@@ -87,16 +87,29 @@
         </thead>
         <tbody id="mining_apps">
         <tr>
-            <td class="miningAppTitle">CPUMiner (forked by LucasJones & Wolf)</td>
+            <td class="miningAppTitle">cpuminer-multi (tpruvot)</td>
             <td>CPU</td>
-            <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=632724">BitcoinTalk</a></td>
-            <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=632724">BitcoinTalk</a></td>
-            <td><a target="_blank" href="https://github.com/wolf9466/cpuminer-multi">Github</a></td>
+            <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=841401.0">BitcoinTalk</a></td>
+            <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=841401.0">BitcoinTalk</a></td>
+            <td><a target="_blank" href="https://github.com/tpruvot/cpuminer-multi/releases">Github</a></td>
         </tr>
         <tr>
             <td colspan="5">
                 <span>Example:</span>
-                <code>minerd -a cryptonight -o stratum+tcp://<span class="exampleHost"></span>:<span class="examplePort"></span> -u <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -p x</code>
+                <code>cpuminer-gw64-corei7 -a cryptonight -o stratum+tcp://<span class="exampleHost"></span>:<span class="examplePort"></span> -u <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -p x</code>
+            </td>
+        </tr>
+        <tr>
+            <td class="miningAppTitle">XMRRig</td>
+            <td>CPU</td>
+            <td><a target="_blank" href="https://config.xmrig.com/">XMRig config generator & editor</a></td>
+            <td><a target="_blank" href="https://bitcointalk.org/index.php?topic=2126975.0">BitcoinTalk</a></td>
+            <td><a target="_blank" href="https://github.com/xmrig/xmrig/releases">Github</a></td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <span>Example:</span>
+                <code>xmrig.exe --donate-level 1 -o stratum+tcp://<span class="exampleHost"></span>:<span class="examplePort"></span> -u <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -p x</code>
             </td>
         </tr>
         <tr>
